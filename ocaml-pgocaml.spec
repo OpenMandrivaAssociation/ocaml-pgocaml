@@ -11,7 +11,7 @@ BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}
 
 BuildRequires:  ocaml >= 3.10.0
 BuildRequires:  postgresql-devel
-BuildRequires:  findlib
+BuildRequires:  ocaml-findlib
 BuildRequires:  ocaml-extlib-devel
 BuildRequires:  pcre-devel
 BuildRequires:  ocaml-pcre-devel
