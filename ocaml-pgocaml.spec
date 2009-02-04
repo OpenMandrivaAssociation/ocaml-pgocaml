@@ -19,6 +19,10 @@ BuildRequires:  ocaml-calendar-devel >= 2.0.4
 BuildRequires:  ocaml-csv-devel
 BuildRequires:  camlp4
 
+Requires:  ocaml-pcre
+Requires:  ocaml-extlib
+Requires:  ocaml-calendar
+
 %description
 PG'OCaml is a type-safe, simple interface to PostgreSQL from OCaml.
 It lets you embed SQL statements directly into OCaml code.
