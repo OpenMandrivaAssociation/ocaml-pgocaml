@@ -44,6 +44,7 @@ developing applications that use %{name}.
 
 
 %build
+make depend
 # Don't build or run the test programs because that would need
 # a live PostgreSQL database around.
 make pGOCaml_config.ml pgocaml.cma pgocaml.cmxa pa_pgsql.cmo \
