@@ -1,6 +1,6 @@
 Name:           ocaml-pgocaml
-Version:        1.3
-Release:        %mkrel 2
+Version:        1.4
+Release:        %mkrel 1
 Summary:        OCaml library for type-safe access to PostgreSQL databases
 
 Group:          Development/Other
