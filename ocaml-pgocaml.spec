@@ -5,7 +5,7 @@ Summary:        OCaml library for type-safe access to PostgreSQL databases
 
 Group:          Development/Other
 License:        LGPLv2+ with exceptions
-URL:            http://developer.berlios.de/projects/pgocaml/
+URL:            https://developer.berlios.de/projects/pgocaml/
 Source0:        http://download.berlios.de/pgocaml/pgocaml-%{version}.tgz
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}
 
