@@ -9,6 +9,7 @@ URL:            https://developer.berlios.de/projects/pgocaml/
 Source0:        http://download.berlios.de/pgocaml/pgocaml-%{version}.tgz
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}
 
+BuildRequires:	make
 BuildRequires:  ocaml >= 3.10.0
 BuildRequires:  postgresql-devel
 BuildRequires:  ocaml-findlib
